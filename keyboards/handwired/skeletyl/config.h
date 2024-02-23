@@ -17,4 +17,8 @@
 /* disable action features */
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
+//#define NO_ACTION_ONESHOT"
+
+#define SPLIT_USB_DETECT
+#define SPLIT_USB_TIMEOUT 2500
+#define SOFT_SERIAL_PIN D0
