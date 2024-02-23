@@ -22,10 +22,3 @@
 #define SPLIT_USB_DETECT
 #define SPLIT_USB_TIMEOUT 2500
 #define SOFT_SERIAL_PIN D0
-
-#define MATRIX_ROW_PINS \
-    { D7, E6, B4, B5}
-
-// wiring of each half
-#define MATRIX_COL_PINS \
-    { B6, B2, B3, B1, F7}
